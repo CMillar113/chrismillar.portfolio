@@ -20,6 +20,10 @@
   align-items: center;
   text-align: center;
   font-size: 130%;
+  min-width: 300px;
+  width: 100%;
+  max-width: 1000px;
+  height: fit-content;
 }
 
 .footer {
@@ -84,7 +88,9 @@
   border: 1px solid #181818;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
+  min-width: 300px;
   width: 100%;
+  max-width: 1000px;
   height: fit-content;
 }
 
@@ -114,7 +120,7 @@
   background-image: url("/linkedIn.png");
   background-size: 30% 37%;
   background-repeat: no-repeat;
-  background-position-x: 101%;
+  background-position-x: 102%;
   background-position-y: 15%;
 }
 
