@@ -110,23 +110,23 @@
 
 .git {
   background-image: url("/githubLogo.png");
-  background-size: 20% 25%;
+  background-size: 18% 25%;
   background-repeat: no-repeat;
-  background-position-x: 94%;
+  background-position-x: 95%;
   background-position-y: 18%;
 }
 
 .link {
   background-image: url("/linkedIn.png");
-  background-size: 30% 37%;
+  background-size: 26% 37%;
   background-repeat: no-repeat;
-  background-position-x: 102%;
+  background-position-x: 100%;
   background-position-y: 15%;
 }
 
 .cv {
   background-image: url("/cv.png");
-  background-size: 25% 30%;
+  background-size: 22% 30%;
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 17%;
