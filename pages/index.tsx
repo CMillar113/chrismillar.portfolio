@@ -18,13 +18,7 @@ const Home: NextPage = () => {
           Hey, I'm Chris!
         </h1>
         
-        {/* <h3 className={styles.title}>
-          Check out my <a href="cv.pdf" download>CV</a>
-        </h3> */}
 
-
-
-      
 
         <div className={styles.grid}>
   
@@ -68,11 +62,10 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
 
-      <Image src="/carbon.png" alt='Intro' width={600} height={200}/>
+      {/* <Image src="/carbon.png" alt='Intro' width={600} height={200}/> */}
       </footer>
     </div>
     </div>
   )
 }
-
 export default Home
