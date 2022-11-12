@@ -112,18 +112,18 @@
 
 .link {
   background-image: url("/linkedIn.png");
-  background-size: 35% 35%;
+  background-size: 30% 37%;
   background-repeat: no-repeat;
-  background-position-x: 104%;
+  background-position-x: 101%;
   background-position-y: 15%;
 }
 
 .cv {
   background-image: url("/cv.png");
-  background-size: 30% 30%;
+  background-size: 25% 30%;
   background-repeat: no-repeat;
-  background-position-x: 99%;
-  background-position-y: 15%;
+  background-position-x: 100%;
+  background-position-y: 17%;
 }
 
 .orange:hover,
