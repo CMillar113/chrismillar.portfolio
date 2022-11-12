@@ -23,29 +23,30 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
   
 
-          <p className={styles.para}>A recent software development graduate eager to kickstart his career.<br/> <br/>
+          <p className={styles.para}>I'm a recent MSc software development graduate eager to kickstart his career.<br/> <br/>
            I am actively looking for a software engineering position within an ambitious product-focused company that 
             can offer development training, project based learning and career progression opportunities.</p>
             
             <a
             href="cv.pdf" download
-            className={`${styles.card} ${styles.orange}`}
+            className={`${styles.card} ${styles.orange} ${styles.cv}`}
           >
             <h2>Download CV &rarr;</h2>
             <p>Check out my CV!</p>
           </a>
 
-          <a href="https://shorturl.at/DFO69" className={`${styles.card} ${styles.blue}`}>
+          <a href="https://shorturl.at/DFO69" className={`${styles.card} ${styles.blue} ${styles.link}`}>
             <h2>LinkedIn &rarr;</h2>
             <p>Connect with me on LinkedIn.</p>
           </a>
 
           <a
             href="https://github.com/cmillar113" 
-            className={`${styles.card} ${styles.green}`}
+            className={`${styles.card} ${styles.green} ${styles.git}`}
           >
             <h2>Github &rarr;</h2>
             <p>Check out my github!</p>
+            
           </a>
 
           <a

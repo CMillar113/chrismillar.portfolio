@@ -5,7 +5,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,6 @@
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
-
   justify-content: center;
   align-items: center;
 }
@@ -74,13 +73,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 1000px;
 }
 
 .cardFull {
   margin: 1rem;
-  padding-left: 1.5rem;
+  padding: 1rem;
   text-align: center;
   color: inherit;
   text-decoration: none;
@@ -88,20 +85,45 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 100%;
-  height: 100px;
+  height: fit-content;
 }
 
 .card {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
+  align-content: right;
   color: inherit;
   text-decoration: none;
   border: 1px solid #181818;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 300px;
-  height: 200px;
+  height: 150px;
+}
+
+.git {
+  background-image: url("/githubLogo.png");
+  background-size: 20% 25%;
+  background-repeat: no-repeat;
+  background-position-x: 94%;
+  background-position-y: 18%;
+}
+
+.link {
+  background-image: url("/linkedIn.png");
+  background-size: 35% 35%;
+  background-repeat: no-repeat;
+  background-position-x: 104%;
+  background-position-y: 15%;
+}
+
+.cv {
+  background-image: url("/cv.png");
+  background-size: 30% 30%;
+  background-repeat: no-repeat;
+  background-position-x: 99%;
+  background-position-y: 15%;
 }
 
 .orange:hover,
@@ -151,6 +173,7 @@
 
 @media (prefers-color-scheme: dark) {
   .card,
+  .cardFull,
   .footer {
     border-color: #222;
   }
@@ -163,5 +186,9 @@
 }
 
 .heading {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  /* border: #f5bb00;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 1rem; */
 }
