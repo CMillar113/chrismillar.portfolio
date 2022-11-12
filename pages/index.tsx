@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
+    <div className={styles.width}>
     <div className={styles.container}>
       <Head>
         <title>Chris Millar</title>
@@ -69,6 +70,7 @@ const Home: NextPage = () => {
 
       <Image src="/carbon.png" alt='Intro' width={600} height={200}/>
       </footer>
+    </div>
     </div>
   )
 }

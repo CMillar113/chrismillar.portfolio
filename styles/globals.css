@@ -1,12 +1,15 @@
 html,
 body {
+  width: fit-content;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   color: #eeeeee;
-  background: #3c3a3f;
+  background: #56535a;
+  align-content: center;
+  text-align: center;
 }
 
 a {
