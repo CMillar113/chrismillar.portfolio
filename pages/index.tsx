@@ -51,13 +51,13 @@ const Home: NextPage = () => {
           <h2>Projects</h2>
           <a
             href="https://todo-list-cmillar113.vercel.app/"
-            className={`${styles.card} ${styles.purple} ${styles.todo}`}
+            className={`${styles.cardProjects} ${styles.purple} `}
           >
             <h2>Todo List</h2>
             <ul>
-            <li>Next.js</li>
-            <li>Updating Arrays in State</li>
-              <li>Persistence of Data</li>
+            <li>Uses NextJS, deployed to Vercel</li>
+            <li>Maintaining and mutating UI state with react hooks</li>
+              <li>Persisting data between sessions via local storage</li>
             </ul>
           </a>
 

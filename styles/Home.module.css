@@ -108,6 +108,21 @@
   height: 150px;
 }
 
+.cardProjects {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #181818;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  min-width: 300px;
+  width: fit-content;
+  max-width: 1000px;
+  height: fit-content;
+}
+
 .git {
   background-image: url("/githubLogo.png");
   background-size: 16% 25%;
@@ -130,14 +145,6 @@
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 17%;
-}
-
-.todo {
-  /* background-image: url("/list.png"); */
-  background-size: 50% 100%;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: 50%;
 }
 
 .orange:hover,
