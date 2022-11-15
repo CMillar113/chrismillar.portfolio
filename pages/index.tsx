@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             <h2>LinkedIn &rarr;</h2>
             <p>Connect with me on LinkedIn.</p>
           </a>
-
+          
           <a
             href="https://github.com/cmillar113" 
             className={`${styles.card} ${styles.green} ${styles.git}`}
@@ -48,8 +48,24 @@ const Home: NextPage = () => {
             <p>Check out my github!</p>
             
           </a>
-
+          <h2>Projects</h2>
           <a
+            href="https://todo-list-cmillar113.vercel.app/"
+            className={`${styles.card} ${styles.purple} ${styles.todo}`}
+          >
+            <h2>Todo List</h2>
+            <ul>
+            <li>Next.js</li>
+            <li>Updating Arrays in State</li>
+              <li>Persistence of Data</li>
+            </ul>
+          </a>
+
+        </div>
+      </main>
+
+      <footer className={styles.footer}>
+      <a
             href="mailto:c.millar.113@gmail.com"
             className={`${styles.cardFull} ${styles.yellow}`}
           >
@@ -57,11 +73,6 @@ const Home: NextPage = () => {
             <p>I'm always keen to expand my network. Let's grab a coffee!</p>
           </a>
 
-
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
 
       {/* <Image src="/carbon.png" alt='Intro' width={600} height={200}/> */}
       </footer>
