@@ -54,10 +54,10 @@ const Home: NextPage = () => {
             className={`${styles.cardProjects} ${styles.purple} `}
           >
             <h2>Todo List</h2>
-            <ul>
-            <li>Uses NextJS, deployed to Vercel</li>
+            <ul>     
             <li>Maintaining and mutating UI state with react hooks</li>
               <li>Persisting data between sessions via local storage</li>
+              <li>Uses NextJS, deployed to Vercel</li>
             </ul>
           </a>
           <br></br>
@@ -68,9 +68,9 @@ const Home: NextPage = () => {
           >
             <h2>Gym Website</h2>
             <ul>
-            <li>Uses NextJS, deployed to Vercel</li>
             <li>Responsive web design</li>
-              <li>Project to be used to continuously test and improve styling skills</li>
+              <li>Project used to continuously test and improve styling skills</li>
+              <li>Uses NextJS, deployed to Vercel</li>
             </ul>
           </a>
 
