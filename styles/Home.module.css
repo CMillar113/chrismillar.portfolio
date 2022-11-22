@@ -118,8 +118,8 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   min-width: 300px;
-  width: fit-content;
-  max-width: 1000px;
+  width: 40%;
+  max-width: 500px;
   height: fit-content;
 }
 
