@@ -60,6 +60,19 @@ const Home: NextPage = () => {
               <li>Persisting data between sessions via local storage</li>
             </ul>
           </a>
+          <br></br>
+
+          <a
+            href="https://gym-template-gules.vercel.app/"
+            className={`${styles.cardProjects} ${styles.purple} `}
+          >
+            <h2>Gym Website</h2>
+            <ul>
+            <li>Uses NextJS, deployed to Vercel</li>
+            <li>Responsive web design</li>
+              <li>Project to be used to continuously test and improve styling skills</li>
+            </ul>
+          </a>
 
         </div>
       </main>
