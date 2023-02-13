@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             can offer development training, project based learning and career progression opportunities.</p>
             
             <a
-            href="cv.pdf" download
+            href="Christopher Millar CV.pdf" download
             className={`${styles.card} ${styles.orange} ${styles.cv}`}
           >
             <h2>Download CV &rarr;</h2>
